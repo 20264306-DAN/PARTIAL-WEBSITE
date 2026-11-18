@@ -1,0 +1,19 @@
+/* SafeClick - small shared stylesheet. */
+
+body {
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
+
+/* Skip link: hidden until a keyboard user presses Tab */
+.skip {
+    position: absolute;
+    left: -999px;
+}
+
+.skip:focus {
+    left: 10px;
+    top: 10px;
+    background-color: white;
+    padding: 10px 20px;
+}
